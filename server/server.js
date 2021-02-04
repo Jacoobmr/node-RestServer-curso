@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-//habulitar la carpeta public
+//habilitar la carpeta public
 app.use(express.static(path.resolve(__dirname, '../public')));
 
 //CONFIGURACION GLOBAL DE RUTAS
